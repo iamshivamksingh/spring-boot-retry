@@ -1,0 +1,223 @@
+[
+  {
+    "id": "HONDA_HONDA_CPO_0_0",
+    "oem": "HONDA",
+    "program": "HONDA_CPO",
+    "tenantId": "0",
+    "dealerId": "0",
+    "workflowConfig" : {
+      "INV_ORDER_ENRICHMENT": {
+        "levels": [
+          {
+            "level": 1,
+            "tasks": [
+              "VALIDATE_DEAL_REQUEST"
+            ]
+          },
+          {
+            "level": 2,
+            "tasks": [
+              "CREATE_ORDER_ENTITY"
+            ]
+          },
+          {
+            "level": 3,
+            "tasks": [
+              "CREATE_DEAL"
+            ]
+          },
+          {
+            "level": 4,
+            "tasks": [
+              "UPDATE_DEAL_DETAILS"
+            ]
+          },
+          {
+            "level": 5,
+            "tasks": [
+              "PUBLISH_DEAL_UPDATES"
+            ]
+          }
+        ]
+      }
+    },
+    "metadata": {
+    "orderStatusesForRemoval": {
+      "allowed": ["CO_CANCELLED", "CANCELLED"]
+    },
+      "emailLink" : {
+        "stage_cloud" : {
+          "myAcLink" : "https://hondacertified-stage.aecloud.io/shopping/myaccount/",
+          "scxLink" : "https://hondacertified-stage.aecloud.io/shopping/checkout?token=%s",
+          "dmsLink" : "https://stageapp.tekioncloud.xyz/sales/deals/details/%s",
+          "vehicleFallBackImage" : "https://preprodpublic.blob.core.windows.net/public-assets/aec-web/hondacpo/images/common/vehicle-image-fallback.png",
+          "privacyPolicyLink" : "https://www.honda.com/privacy/privacy-notice?CID=dmg_202782&e=a3BhbmR5YUB0ZWtpb24uY29t&campaignName=202782&MC_RID=2027823207223617663&MC_MID=202782&PROGRAMID=&OFFERCODE=BT8549&CELLCODE=A1&PID=&FROM=EMAIL",
+          "termsAndConditionLink" : "https://www.honda.com/privacy/terms-and-conditions"
+        },
+        "preprod_cloud" : {
+          "myAcLink" : "https://hondacertified-preprod.aecloud.io/shopping/myaccount/",
+          "scxLink" : "https://hondacertified-preprod.aecloud.io/shopping/checkout?token=%s",
+          "dmsLink" : "https://preprodapp.tekioncloud.com/sales/deals/details/%s",
+          "vehicleFallBackImage" : "https://preprodpublic.blob.core.windows.net/public-assets/aec-web/hondacpo/images/common/vehicle-image-fallback.png",
+          "privacyPolicyLink" : "https://www.honda.com/privacy/privacy-notice?CID=dmg_202782&e=a3BhbmR5YUB0ZWtpb24uY29t&campaignName=202782&MC_RID=2027823207223617663&MC_MID=202782&PROGRAMID=&OFFERCODE=BT8549&CELLCODE=A1&PID=&FROM=EMAIL",
+          "termsAndConditionLink" : "https://www.honda.com/privacy/terms-and-conditions"
+        },
+        "prod_cloud" : {
+          "myAcLink" : "https://hondacertified.com/shopping/myaccount/",
+          "scxLink" : "https://hondacertified.com/shopping/checkout?token=%s",
+          "dmsLink" : "https://ahm.tekioncloud.com/sales/deals/details/%s",
+          "vehicleFallBackImage" : "https://preprodpublic.blob.core.windows.net/public-assets/aec-web/hondacpo/images/common/vehicle-image-fallback.png",
+          "privacyPolicyLink" : "https://www.honda.com/privacy/privacy-notice?CID=dmg_202782&e=a3BhbmR5YUB0ZWtpb24uY29t&campaignName=202782&MC_RID=2027823207223617663&MC_MID=202782&PROGRAMID=&OFFERCODE=BT8549&CELLCODE=A1&PID=&FROM=EMAIL",
+          "termsAndConditionLink" : "https://www.honda.com/privacy/terms-and-conditions"
+        }
+      }
+    }
+  },
+  {
+    "id": "HONDA_ACURA_CPO_0_0",
+    "oem": "HONDA",
+    "program": "ACURA_CPO",
+    "tenantId": "0",
+    "dealerId": "0",
+    "workflowConfig" : {
+      "INV_ORDER_ENRICHMENT": {
+        "levels": [
+          {
+            "level": 1,
+            "tasks": [
+              "VALIDATE_DEAL_REQUEST"
+            ]
+          },
+          {
+            "level": 2,
+            "tasks": [
+              "CREATE_ORDER_ENTITY"
+            ]
+          },
+          {
+            "level": 3,
+            "tasks": [
+              "CREATE_DEAL"
+            ]
+          },
+          {
+            "level": 4,
+            "tasks": [
+              "UPDATE_DEAL_DETAILS"
+            ]
+          },
+          {
+            "level": 5,
+            "tasks": [
+              "PUBLISH_DEAL_UPDATES"
+            ]
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "orderStatusesForRemoval": {
+        "allowed": ["CO_CANCELLED", "CANCELLED"]
+      },
+      "emailLink" : {
+        "stage_cloud" : {
+          "myAcLink" : "https://acuracertified-stage.aecloud.io/shopping/myaccount/",
+          "scxLink" : "https://acuracertified-stage.aecloud.io/shopping/checkout?token=%s",
+          "dmsLink" : "https://stageapp.tekioncloud.xyz/sales/deals/details/%s",
+          "vehicleFallBackImage" : "https://preprodpublic.blob.core.windows.net/public-assets/aec-web/hondacpo/images/common/vehicle-image-fallback.png",
+          "privacyPolicyLink" : "https://www.honda.com/privacy/privacy-notice?CID=dmg_202782&e=a3BhbmR5YUB0ZWtpb24uY29t&campaignName=202782&MC_RID=2027823207223617663&MC_MID=202782&PROGRAMID=&OFFERCODE=BT8549&CELLCODE=A1&PID=&FROM=EMAIL",
+          "termsAndConditionLink" : "https://www.honda.com/privacy/terms-and-conditions"
+        },
+        "preprod_cloud" : {
+          "myAcLink" : "https://acuracertified-preprod.aecloud.io/shopping/myaccount/",
+          "scxLink" : "https://acuracertified-preprod.aecloud.io/shopping/checkout?token=%s",
+          "dmsLink" : "https://preprodapp.tekioncloud.com/sales/deals/details/%s",
+          "vehicleFallBackImage" : "https://preprodpublic.blob.core.windows.net/public-assets/aec-web/acuracpo/images/common/vehicle-image-fallback.png",
+          "privacyPolicyLink" : "https://www.honda.com/privacy/privacy-notice?CID=dmg_202782&e=a3BhbmR5YUB0ZWtpb24uY29t&campaignName=202782&MC_RID=2027823207223617663&MC_MID=202782&PROGRAMID=&OFFERCODE=BT8549&CELLCODE=A1&PID=&FROM=EMAIL",
+          "termsAndConditionLink" : "https://www.honda.com/privacy/terms-and-conditions"
+        },
+        "prod_cloud" : {
+          "myAcLink" : "https://acuracertified.com/shopping/myaccount/",
+          "scxLink" : "https://acuracertified.com/shopping/checkout?token=%s",
+          "dmsLink" : "https://ahm.tekioncloud.com/sales/deals/details/%s",
+          "vehicleFallBackImage" : "https://preprodpublic.blob.core.windows.net/public-assets/aec-web/hondacpo/images/common/vehicle-image-fallback.png",
+          "privacyPolicyLink" : "https://www.honda.com/privacy/privacy-notice?CID=dmg_202782&e=a3BhbmR5YUB0ZWtpb24uY29t&campaignName=202782&MC_RID=2027823207223617663&MC_MID=202782&PROGRAMID=&OFFERCODE=BT8549&CELLCODE=A1&PID=&FROM=EMAIL",
+          "termsAndConditionLink" : "https://www.honda.com/privacy/terms-and-conditions"
+        }
+      }
+    }
+  },
+  {
+    "id": "HONDA_ACURA_NEW_0_0",
+    "oem": "HONDA",
+    "program": "ACURA_NEW",
+    "tenantId": "0",
+    "dealerId": "0",
+    "workflowConfig" : {
+      "CONF_POST_ORDER_FLOW": {
+        "levels": [
+          {
+            "level": 1,
+            "tasks": [
+              "CO_PUBLISH_TO_DX",
+              "CO_PUBLISH_TO_MYACCOUNTS",
+              "CO_NOTIFICATION_TO_CONSUMERS"
+            ]
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "inProgressOrderLimit": 2,
+      "paymentRetryLimit": 3,
+      "orderConfirmationRetryLimit": 5,
+      "oemSlotHoldTimeMins" : 30,
+      "slotHoldBufferTimeMins" : 5,
+      "orderConfirmationRetryScheduleTimeMins" : 5,
+      "oemEDDBufferDays" : 25,
+      "externalUserIdType": "CIAM_ID",
+      "userIdType": "CONSUMER_ID",
+      "orderStatusesForRemoval": {
+        "allowed": ["CO_CANCELLED", "CANCELLED"]
+      },
+      "supportEmailInCaseOrderConfirmationRetryAttemptsExhausted": {
+        "prod_cloud": ["dspsupport@tekion.com"],
+        "preprod_cloud": ["zdxtest42@gmail.com"],
+        "perf_cloud": ["zdxtest42@gmail.com"],
+        "stage_cloud": ["mohdasad@tekion.com","zdxtest42@gmail.com"],
+        "tst_cloud": ["mohdasad@tekion.com","zdxtest42@gmail.com"]
+      },
+      "tileImageAngle":"34FRONT",
+      "emailLink" : {
+        "tst_cloud" : {
+          "myAcLink" : "https://acura-dev.aecloud.io/shopping/myaccount/my-orders",
+          "vehicleFallBackImage" : "https://preprodpublic.blob.core.windows.net/public-assets/aec-web/hondacpo/images/common/vehicle-image-fallback.png",
+          "privacyPolicyLink" : "https://www.honda.com/privacy/privacy-notice?CID=dmg_202782&e=a3BhbmR5YUB0ZWtpb24uY29t&campaignName=202782&MC_RID=2027823207223617663&MC_MID=202782&PROGRAMID=&OFFERCODE=BT8549&CELLCODE=A1&PID=&FROM=EMAIL",
+          "termsAndConditionLink" : "https://www.honda.com/privacy/terms-and-conditions",
+          "buildSummaryLink" : "https://acura-dev.aecloud.io/shopping/configurator/summary?tab=summary"
+        },
+        "stage_cloud" : {
+          "myAcLink" : "https://acura-stage.aecloud.io/shopping/myaccount/my-orders",
+          "vehicleFallBackImage" : "https://preprodpublic.blob.core.windows.net/public-assets/aec-web/hondacpo/images/common/vehicle-image-fallback.png",
+          "privacyPolicyLink" : "https://www.honda.com/privacy/privacy-notice?CID=dmg_202782&e=a3BhbmR5YUB0ZWtpb24uY29t&campaignName=202782&MC_RID=2027823207223617663&MC_MID=202782&PROGRAMID=&OFFERCODE=BT8549&CELLCODE=A1&PID=&FROM=EMAIL",
+          "termsAndConditionLink" : "https://www.honda.com/privacy/terms-and-conditions",
+          "buildSummaryLink" : "https://acura-stage.aecloud.io/shopping/configurator/summary?tab=summary"
+        },
+        "preprod_cloud" : {
+          "myAcLink" : "https://akamai-staging2.acura.com/zdx-orders",
+          "vehicleFallBackImage" : "https://preprodpublic.blob.core.windows.net/public-assets/aec-web/acuracpo/images/common/vehicle-image-fallback.png",
+          "privacyPolicyLink" : "https://www.honda.com/privacy/privacy-notice?CID=dmg_202782&e=a3BhbmR5YUB0ZWtpb24uY29t&campaignName=202782&MC_RID=2027823207223617663&MC_MID=202782&PROGRAMID=&OFFERCODE=BT8549&CELLCODE=A1&PID=&FROM=EMAIL",
+          "termsAndConditionLink" : "https://www.honda.com/privacy/terms-and-conditions",
+          "buildSummaryLink" : "https://acura-preprod.aecloud.io/shopping/configurator/summary?tab=summary"
+        },
+        "prod_cloud" : {
+          "myAcLink" : "https://acura.com/shopping/myaccount/my-orders",
+          "vehicleFallBackImage" : "https://preprodpublic.blob.core.windows.net/public-assets/aec-web/hondacpo/images/common/vehicle-image-fallback.png",
+          "privacyPolicyLink" : "https://www.honda.com/privacy/privacy-notice?CID=dmg_202782&e=a3BhbmR5YUB0ZWtpb24uY29t&campaignName=202782&MC_RID=2027823207223617663&MC_MID=202782&PROGRAMID=&OFFERCODE=BT8549&CELLCODE=A1&PID=&FROM=EMAIL",
+          "termsAndConditionLink" : "https://www.honda.com/privacy/terms-and-conditions",
+          "buildSummaryLink" : "https://acura.com/shopping/configurator/summary?tab=summary"
+        }
+      }
+    }
+  }
+]
