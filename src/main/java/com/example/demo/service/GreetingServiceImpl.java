@@ -1,4 +1,4 @@
-package com.example.demo.exception.service;
+package com.example.demo.service;
 
 import com.example.demo.exception.NonRetryableException;
 import com.example.demo.exception.RetryableException;

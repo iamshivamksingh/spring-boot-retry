@@ -18,7 +18,7 @@ public class Runner implements CommandLineRunner {
     public void run(String... args) throws Exception {
         // System.out.println(configLoaderHelper.getMetadata());
 
-        System.out.println(configLoaderHelper.getEmailProperty());
+        // System.out.println(configLoaderHelper.getEmailProperty());
 
         // System.out.println(configLoaderHelper.getSupportEmails());
 

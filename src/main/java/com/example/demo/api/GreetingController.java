@@ -1,7 +1,6 @@
-package com.example.demo.exception.api;
+package com.example.demo.api;
 
-import com.example.demo.exception.service.GreetingService;
-import lombok.Getter;
+import com.example.demo.service.GreetingService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
