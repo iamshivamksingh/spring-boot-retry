@@ -1,4 +1,4 @@
-package com.example.demo.configuration.bean;
+package com.example.demo.bean;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

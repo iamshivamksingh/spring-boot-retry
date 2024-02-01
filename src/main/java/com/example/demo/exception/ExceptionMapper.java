@@ -1,6 +1,7 @@
 package com.example.demo.exception;
 
 import com.example.demo.dto.ErrorResponse;
+import com.fasterxml.jackson.databind.exc.MismatchedInputException;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -26,5 +27,19 @@ public class ExceptionMapper {
                 );
 
         return new ResponseEntity<>(errResponse, HttpStatus.BAD_REQUEST);
+    }
+
+
+    @ExceptionHandler(MismatchedInputException.class)
+    public ResponseEntity<ErrorResponse> handleMismatchInputException(MismatchedInputException e) {
+        ErrorResponse errResponse = new ErrorResponse()
+                .setStatus("failed")
+                .setCode("DEMO-003")
+                .setBody(new ErrorResponse.ErrorBody()
+                                 .setDebugMsg(e.getMessage())
+                                 .setErrorMsg("Deserialization issue")
+                );
+
+        return new ResponseEntity<>(errResponse, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }

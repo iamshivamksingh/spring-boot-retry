@@ -1,6 +1,6 @@
 package com.example.demo.configuration;
 
-import com.example.demo.configuration.bean.ConfigProperty;
+import com.example.demo.bean.ConfigProperty;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Value;

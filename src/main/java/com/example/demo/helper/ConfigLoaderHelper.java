@@ -2,8 +2,8 @@ package com.example.demo.helper;
 
 import com.example.demo.bean.EmailProperty;
 import com.example.demo.bean.OrderStatusesForRemoval;
-import com.example.demo.configuration.bean.ConfigProperty;
-import com.example.demo.configuration.bean.Workflow;
+import com.example.demo.bean.ConfigProperty;
+import com.example.demo.bean.Workflow;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;

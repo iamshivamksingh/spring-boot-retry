@@ -1,6 +1,6 @@
 package com.example.demo.helper;
 
-import com.example.demo.configuration.bean.Workflow;
+import com.example.demo.bean.Workflow;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationContext;
